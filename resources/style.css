@@ -1,4 +1,4 @@
-/* Universal */
+  /* Universal */
 body {
   background-color: black;
   display: block;
@@ -10,6 +10,7 @@ body {
 
 a {
   color: white;
+  text-decoration: underline;
 }
 
 .flex-container {
@@ -22,7 +23,7 @@ div {
   display: block;
 }
 
-/* Header */
+  /* Header */
 
 nav span {
   display: inline-block;
@@ -57,7 +58,7 @@ header nav {
   margin-right: 12px;
 }
 
-/* Main Content */
+  /* Main Content */
 
 .main {
   padding-top: 70px;
@@ -78,8 +79,57 @@ header nav {
   margin: auto;
 }
 
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
 
-/* Footer */
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.item span{
+  font-weight: bold;
+}
+
+#locations {
+  background-image: url(img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1000px;
+}
+
+.location {
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 200px;
+
+
+}
+
+    /* Contact */
+
+#contact {
+  height: 200px;
+}
+
+    /* Footer */
 
 footer {
   text-align: left;
