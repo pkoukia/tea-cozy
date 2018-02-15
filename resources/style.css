@@ -29,18 +29,27 @@ header {
 }
 
 header nav {
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .logo img {
   width: 125px;
   height: 50px;
   margin-right: 12px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  display: block;
+  padding-left: 20px;
+  font-weight: bold;
 }
