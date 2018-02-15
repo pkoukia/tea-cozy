@@ -1,13 +1,25 @@
 /* Universal */
 body {
   background-color: black;
+  display: block;
   color: seashell;
   font-size: 22px;
+  text-align: center;
   font-family: "helvetica", sans-serif;
 }
 
 a {
   color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  display: block;
 }
 
 /* Header */
@@ -44,6 +56,24 @@ header nav {
   height: 50px;
   margin-right: 12px;
 }
+
+/* Main Content */
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  padding-top: 70px;
+  background-image: url(img-mission-background.jpg);
+}
+
+
+
 
 /* Footer */
 
